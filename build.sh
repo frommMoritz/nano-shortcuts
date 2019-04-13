@@ -22,4 +22,4 @@ echo Archive name will be \"$archiveName\"
 
 mkdir -p $archivePath
 
-zip -r -FS $archivePath$archiveName * --exclude *.git* --exclude build/* --exclude build.sh
+zip -r -FS $archivePath$archiveName * --exclude *.git* --exclude build/* --exclude build/ --exclude build.sh
