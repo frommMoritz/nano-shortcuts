@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "Nano shortcuts",
+    "version": "1.0",
+    "description": "Enable the shortcuts displayed on nano-editor.org",
+    "homepage_url": "https://github.com/frommMoritz/nano-shortcuts/",
+    "content_scripts": [{
+        "matches": [
+            "*://*.nano-editor.org/*"
+        ],
+        "js": [
+            "shortcuts.js",
+            "nano-shortcuts.js"
+        ]
+    }],
+    "icons": {
+        "64": "icons/icon-128.png",
+        "128": "icons/icon-128.png",
+        "256": "icons/icon-256.png",
+        "512": "icons/icon-512.png"
+    },
+    "applications": {
+        "gecko": {
+            "id": "git@moritz-fromm.de"
+        }
+    }
+}
