@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Nano shortcuts",
-    "version": "1.0",
+    "version": "1.0.1",
     "description": "Enable the shortcuts displayed on nano-editor.org",
     "homepage_url": "https://github.com/frommMoritz/nano-shortcuts/",
     "content_scripts": [{
